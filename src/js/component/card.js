@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props){
    return ( 
-    
+    <div className="col col-sm-3">
     <div className="card" style={{width: "18rem"}}>
     <img src={props.url} className="card-img-top rounded"  alt="..."/>
     <div className="card-body">
@@ -11,6 +11,7 @@ function Card(props){
         Some quick example text to build on the card title and make up the bulk of the card's content.
     </p>
     <a href="#" className="btn btn-primary">Go somewhere</a>
+    </div>
     </div>
     </div>
     );
