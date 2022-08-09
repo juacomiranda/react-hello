@@ -3,6 +3,7 @@ import Card from "./card";
 import Navbar from "./nav";
 import Hero from "./hero";
 import Footer from "./footer";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -11,9 +12,9 @@ const Home = () => {
 	return (
 		<>
 		<Navbar />
-		<div className = "container">
+		<div className = "container px-2">
 			<Hero />
-			<div className = "row">
+			<div className = "row px-2">
 					<Card url="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale"/>
 					<Card url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVCMqJZ4tSm493nuW2cXl60FyuNrr-svvxAy6y4A-vsky_lhWkx8TDGgTkQrjlWMuSlJU&usqp=CAU"/>
 					<Card url="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/36DFE80A-776A-49F7-B4BB-273C0A702BEE/Derivates/b6c3bc06-581e-4da9-a38f-8b6d47d62891.jpg"/>
